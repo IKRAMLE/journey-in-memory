@@ -34,4 +34,148 @@ nav ul li a:hover{
     color:#2abadf;
 }
 
+/* Hero section styles */
+.hero {
+    background-image: url('https://www.travelandleisure.com/thmb/02xFc_uPDJzh3DEH85pijFDlos8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/children-traveling-KIDTRVL0719-f347c36eb8af40e5a4415ba352a93c65.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section styles */
+
+.destinations{
+    display: flex;
+}
+.h2{
+    margin-top: 3rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 1rem auto;
+    max-width: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 20px;
+    border: 1px solid #2abadf;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    color: #000000;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 16px;
+    color: #000000;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    padding: 10px;
+    border: 1px solid #2296c7;
+    background-color: #ffffff;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #ccc;
+}
+
+.contact-form button {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #2abadf;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #2296c7;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
