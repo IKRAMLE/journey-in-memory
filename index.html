@@ -1,12 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Journey in Memory</title>
+    <meta name="description" content="Explore the world with our travel agency.">
+    <title>Travel Agency Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <!-- Navbar -->
+    <nav>
+        <a href="#" class="navbar-brand">Journey In Memory</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div>
+            <h1>Discover Your Next Adventure</h1>
+            <p>Let us take you to the most beautiful places on Earth.</p>
+            <a href="#destinations">Explore Destinations</a>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations">
+        <h2 class="text-center">Popular Destinations</h2>
+        <div class="card">
+            <img src="paris.jpg" alt="Paris">
+            <div class="card-body">
+                <h3 class="card-title">Paris</h3>
+                <p>Experience the romance and charm of the City of Lights.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="maldives.jpg" alt="Maldives">
+            <div class="card-body">
+                <h3 class="card-title">Maldives</h3>
+                <p>Relax on pristine beaches with crystal-clear waters.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="new york.jpg" alt="New York">
+            <div class="card-body">
+                <h3 class="card-title">New York</h3>
+                <p>Explore the vibrant streets and iconic landmarks.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="tours">
+        <h2 class="text-center">Our Tours</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">Romantic Paris Getaway</div>
+                <div class="accordion-body">
+                    A 5-day romantic escape to Paris. Includes city tours, museum visits, and a Seine river cruise.
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Tropical Maldives Retreat</div>
+                <div class="accordion-body">
+                    A luxurious 7-day retreat to the Maldives. Enjoy beach resorts, snorkeling, and spa services.
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">New York City Adventure</div>
+                <div class="accordion-body">
+                    A 3-day tour of New York City. Visit Times Square, Central Park, and Broadway shows.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2 class="text-center">Get in Touch</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination of Interest</label>
+                <select id="destination" class="form-control">
+                    <option>Paris</option>
+                    <option>Maldives</option>
+                    <option>New York</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </footer>
 </body>
+
 </html>
